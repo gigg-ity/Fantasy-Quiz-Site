@@ -3,63 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interactive Lord of the Rings Quiz</title>
-    <link rel="stylesheet" href="quiz2.css">
+    <title>Interactive Fantasy Quiz</title>
     <script src="quiz2.js"></script>
+    <link rel="stylesheet" href="quiz2.css">
+    
+
 </head>
 <body>
-    <!-- Welcome Popup Page-->
+    <!-- Welcome Popup -->
     <div class="welcome-popup" id="welcomePopup">
         <div class="popup-content">
-            <h2>Welcome to the Lord of the Rings Quiz!</h2>
-            <p>Test your knowledge on Tolkien verse!</p>
-            <button onclick="closeWelcome()">Start Quiz!</button>
+            <h2>Welcome to The Lord Of The Rings Fantasy Quiz</h2>
+            <p>Test your knowledge on Tolkien Verse!</p>
+            <button onclick="closeWelcome()">Start Quiz</button>
         </div>
     </div>
 
-    <!--Main Quiz Page-->
-    <div class="container" id="quizcontent"></div>
-    <header>
-        <img src="">
-        <h1>Lord Of the Rings Quiz</h1>
-    </header>
-    <form id="quizForm">
- <!--Question 1-->
- <div class="questionbox"></div>
-        <p class="question-test">1. QUESTION NUMBER 1</p>
-        <label><input type="radio" name="q1" value="a">Answer1</label>
-        <br><br>
-        <label><input type="radio" name="q1" value="b">Answer2</label>
-        <br><br>
-        <label><input type="radio" name="q1" value="c">Answer3</label>
-        <br><br>
-        <label><input type="radio" name="q1" value="d">Answer4</label>
+    <!-- Main Quiz Content -->
+    <div class="container" id="mainContent">
+        <header>
+            <img src="">
+            <h1>BLEACH QUIZ</h1>
+        </header>
+
+        <form id="quizForm">
+            <!-- Question 1 -->
+            <div class="question-box">
+                <p class="question-text">What do the elves call Gandalf the Grey?</p>
+                <label>
+                    <input type="radio" name="q1" value="a">
+                    Incanus
+                </label><br>
+                <label>
+                    <input type="radio" name="q1" value="b">
+                    Mithrandir
+                </label><br>
+                <label>
+                    <input type="radio" name="q1" value="c">
+                    Olorin
+                </label><br>
+                <label>
+                    <input type="radio" name="q1" value="d">
+                   Tharkun
+                </label>
+            </div>
+
+            <!-- Question 2 -->
+            <div class="question-box">
+                <p class="question-text">What's the name of Frodo's sword, given to him by Bilbo?</p>
+                <label>
+                    <input type="radio" name="q2" value="a">
+                   Orcist
+                </label><br>
+                <label>
+                    <input type="radio" name="q2" value="b">
+                    Andruil
+                </label><br>
+                <label>
+                    <input type="radio" name="q2" value="c">
+                    Glamdring
+                </label><br>
+                <label>
+                    <input type="radio" name="q2" value="d">
+                   Sting
+                </label>
+            </div>
+
+            <div class="question-box">
+                <p class="question-text">Who forged the three Elven rings, Nenya, Narya, and Vilya?</p>
+                <label>
+                    <input type="radio" name="q1" value="a">
+                    Sauron
+                </label><br>
+                <label>
+                    <input type="radio" name="q1" value="b">
+                    Celebrimbor
+                </label><br>
+                <label>
+                    <input type="radio" name="q1" value="c">
+                    Galadriel
+                </label><br>
+                <label>
+                    <input type="radio" name="q1" value="d">
+                   Celeborn
+                </label>
+            </div>
+
+            <button type="button" class="submit-btn" onclick="checkAnswers()">Submit Answers</button>
+        </form>
+
+        <footer>
+            <p>Made by [Your Name] - 2025</p>
+        </footer>
     </div>
 
-    <!--Question 2-->
-    <div class="questionbox">
-        <p class="quetiontext">2. QUESTION NUMBER 2</p>
-        <label><input type="radio" name="q2" value="a">Answer1</label>
-        <br><br>
-        <label><input type="radio" name="q2" value="b">Answer2</label>
-        <br><br>
-        <label><input type="radio" name="q2" value="c">Answer3</label>
-        <br><br>
-        <label><input type="radio" name="q2" value="d">Answer4</label>
-    </div>
-
-      <!--Question 3-->
-      <div class="questionbox">
-        <p class="quetiontext">2. QUESTION NUMBER 3</p>
-        <label><input type="radio" name="q2" value="a">Answer1</label>
-        <br><br>
-        <label><input type="radio" name="q2" value="b">Answer2</label>
-        <br><br>
-        <label><input type="radio" name="q2" value="c">Answer3</label>
-        <br><br>
-        <label><input type="radio" name="q2" value="d">Answer4</label>
-    </div>
-    <button type="button" class="submit-btn" onclick="checkAnswers()">Submit Answers</button>
-    </form>
+    
 </body>
 </html>
