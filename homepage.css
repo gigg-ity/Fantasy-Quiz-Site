@@ -71,18 +71,22 @@ input[type="radio"] {
 
 Form {
     background-color: rgb(132, 199, 238);
-    background-image: url("balrog.png");
+    background-image: url("balrog.jpg");
+
     padding: 100px, 100px;
     border-radius: 10px;
     display: fixed;
     font-size: 2.2 rem;
     transition: all 0.3s ease;
+    width: %;
+    height: 100%;
 }
 
 
 Form2 {
     background-color: rgb(245, 50, 245);
     background-image: url("bleach.png");
+
     padding-top: 100px;
     padding-bottom: 100px;
     border-radius: 100px;
@@ -114,3 +118,14 @@ body{
     margin: 0;
     font-family: system-ui;
 }
+
+.header {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
+    background-image: url("fantasy.jpg");
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: 200;
+    color: #7eff42;
+  }
