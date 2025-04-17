@@ -3,100 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interactive Fantasy Quiz</title>
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="styles.css">
-    
-
+    <title>CSS Practice Exercise</title>
+    <!-- Link your external CSS file here -->
+    <link rel="stylesheet" href="homepage.css">
 </head>
 <body>
-    <!-- Welcome Popup -->
-    <div class="welcome-popup" id="welcomePopup">
-        <div class="popup-content">
-            <h2>Welcome to Fantasy Quiz!</h2>
-            <p>Test your knowledge of the Anime Bleach!</p>
-            <button onclick="closeWelcome()">Start Quiz</button>
-        </div>
-    </div>
 
-    <!-- Main Quiz Content -->
-    <div class="container" id="mainContent">
+    <div class="header">
         <header>
-            <img src="Bleach.jpg" alt="Fantasy themed header image" class="header-image">
-            <h1>BLEACH QUIZ</h1>
-        </header>
-
-        <form id="quizForm">
-            <!-- Question 1 -->
-            <div class="question-box">
-                <p class="question-text">1. What is the name of the captain of squad 1?</p>
-                <label>
-                    <input type="radio" name="q1" value="a">
-                    Shunsui Kyoraku
-                </label><br>
-                <label>
-                    <input type="radio" name="q1" value="b">
-                    Rononoa Zoro
-                </label><br>
-                <label>
-                    <input type="radio" name="q1" value="c">
-                    Jushiro Ukitake
-                </label><br>
-                <label>
-                    <input type="radio" name="q1" value="d">
-                   Mayuri Kurotsuchi
-                </label>
-            </div>
-
-            <!-- Question 2 -->
-            <div class="question-box">
-                <p class="question-text">2. Who is the father of the Quincies and monarch of the Wandenreich?</p>
-                <label>
-                    <input type="radio" name="q2" value="a">
-                   Kisuke Urahara
-                </label><br>
-                <label>
-                    <input type="radio" name="q2" value="b">
-                    Yhwach
-                </label><br>
-                <label>
-                    <input type="radio" name="q2" value="c">
-                    Sui Feng
-                </label><br>
-                <label>
-                    <input type="radio" name="q2" value="d">
-                    Ichigo Kurosaki
-                </label>
-            </div>
-
-            <div class="question-box">
-                <p class="question-text">3. What is the name of Ichigo Kurosakis' zanpakuto?</p>
-                <label>
-                    <input type="radio" name="q3" value="a">
-                    Rensei Muguruma
-                </label><br>
-                <label>
-                    <input type="radio" name="q3" value="b">
-                    Sajin Komamura
-                </label><br>
-                <label>
-                    <input type="radio" name="q3" value="c">
-                    Tensa Zangetsu
-                </label><br>
-                <label>
-                    <input type="radio" name="q3" value="d">
-                   Mayuri Kurotsuchi
-                </label>
-            </div>
-
-            <button type="button" class="submit-btn" onclick="checkAnswers()">Submit Answers</button>
-        </form>
-
-        <footer>
-            <p>Made by [Your Name] - 2025</p>
-        </footer>
+        <h1>Welcome to the Interactive Fantasy Quizes!</h1>
+        <p>Please Select a Quiz</p>
     </div>
+    </header>
 
     
-</body>
+    
+
+   
+ 
+        <form id="Form">
+            
+            <div class="quiz-box">
+                <p class="quiz-text">Quiz 1</p>
+                <label>
+                    <a href="index.html" target=_blank title="Redirect to Bleach quiz">
+                    <button type="button"class="bleach-btn">Bleach Quiz</button></a>
+                </label><br>
+            </div>
+        </form>
+        <br><br>
+        <br><br>
+
+        <form id="Form2">
+            
+            <div class="quiz-box">
+                <p class="quiz-text">Quiz 2</p>
+                <label>
+                    <a href="quiz2.html" target=_blank title="Redirect to LOTR quiz">
+                    <button type="button" class="lotr-btn">Lord of the Rings Quiz</button></a>
+                </label><br>
+
+   
 </html>
