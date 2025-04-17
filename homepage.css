@@ -78,12 +78,11 @@ Form {
     display: fixed;
     font-size: 2.2 rem;
     transition: all 0.3s ease;
-    width: %;
-    height: 100%;
+
 }
 
 
-Form2 {
+.Form2{
     background-color: rgb(245, 50, 245);
     background-image: url("bleach.png");
 
