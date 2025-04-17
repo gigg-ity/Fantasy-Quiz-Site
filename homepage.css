@@ -50,8 +50,8 @@ input[type="radio"] {
     transform: scale(1.1);
 }
 .bleach-btn {
-    background: #000000;
-    color: rgba(255, 255, 255, 0.842);
+    background: #f0ed60;
+    color: rgba(0, 0, 0, 0.842);
     padding: 50px 100px;
     border: none;
     border-radius: 10px;
@@ -71,7 +71,8 @@ input[type="radio"] {
 
 Form {
     background-color: rgb(132, 199, 238);
-    padding: 100px, 200px;
+    background-image: url("balrog.png");
+    padding: 100px, 100px;
     border-radius: 10px;
     display: fixed;
     font-size: 2.2 rem;
@@ -81,16 +82,18 @@ Form {
 
 Form2 {
     background-color: rgb(245, 50, 245);
-    padding: 100px, 200px;
-    border-radius: 10px;
+    background-image: url("bleach.png");
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-radius: 100px;
     display: fixed;
     font-size: 2.2 rem;
     transition: all 0.3s ease;
 }
 
 .lotr-btn {
-    background: #e707fc;
-    color: rgba(255, 255, 255, 0.842);
+    background-color: #527ae9;
+    color: rgba(231, 231, 231, 0.842);
     padding: 50px 100px;
     border: none;
     border-radius: 10px;
@@ -105,4 +108,9 @@ Form2 {
     background: #45a049;
     transform: scale(1.05);
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+body{
+    margin: 0;
+    font-family: system-ui;
 }
