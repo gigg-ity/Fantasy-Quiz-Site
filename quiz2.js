@@ -26,9 +26,9 @@ const closeWelcome = () => {
 
 // Answer validation
 const correctAnswers = {
-    q1: "a", // Example answer
-    q2: "b", // Example answer
-    q3: "c"  // Example answer
+    q1: "b", // Example answer
+    q2: "d", // Example answer
+    q3: "a"  // Example answer
 };
 
 const checkAnswers = () => {
