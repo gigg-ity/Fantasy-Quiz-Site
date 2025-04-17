@@ -11,10 +11,14 @@ quiz-box {
 }
 
 .quiz-text {
-    font-size: 1.2rem;
+    font-size: 3.2rem;
     margin-bottom: 1rem;
     color: #019b06;
     font-weight: 500;
+    display: fixed;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: bold;
 }
 
 label {
@@ -46,19 +50,58 @@ input[type="radio"] {
     transform: scale(1.1);
 }
 .bleach-btn {
-    background: #4CAF50;
-    color: white;
-    padding: 15px 40px;
+    background: #000000;
+    color: rgba(255, 255, 255, 0.842);
+    padding: 50px 100px;
     border: none;
-    border-radius: 25px;
+    border-radius: 10px;
     cursor: pointer;
     font-size: 1.1rem;
-    display: block;
+    display: flex;
     margin: 2rem auto;
     transition: all 0.3s ease;
 }
 
 .bleach-btn:hover {
+    background: #45a049;
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+
+Form {
+    background-color: rgb(132, 199, 238);
+    padding: 100px, 200px;
+    border-radius: 10px;
+    display: fixed;
+    font-size: 2.2 rem;
+    transition: all 0.3s ease;
+}
+
+
+Form2 {
+    background-color: rgb(245, 50, 245);
+    padding: 100px, 200px;
+    border-radius: 10px;
+    display: fixed;
+    font-size: 2.2 rem;
+    transition: all 0.3s ease;
+}
+
+.lotr-btn {
+    background: #e707fc;
+    color: rgba(255, 255, 255, 0.842);
+    padding: 50px 100px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    display: flex;
+    margin: 2rem auto;
+    transition: all 0.3s ease;
+}
+
+.lotr-btn:hover {
     background: #45a049;
     transform: scale(1.05);
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
